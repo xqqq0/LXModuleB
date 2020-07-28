@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LXModuleCode_B_Tests' do
+  pod 'LXModuleCode_B', :path => '../'
+  
+  
+end
