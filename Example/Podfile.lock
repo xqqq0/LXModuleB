@@ -2,8 +2,10 @@ PODS:
   - LXModuleCode_B (0.2.0):
     - LXModuleCode_B/SubA (= 0.2.0)
     - LXModuleCode_B/SubB (= 0.2.0)
+    - LXModuleCode_B/SubC (= 0.2.0)
   - LXModuleCode_B/SubA (0.2.0)
   - LXModuleCode_B/SubB (0.2.0)
+  - LXModuleCode_B/SubC (0.2.0)
 
 DEPENDENCIES:
   - LXModuleCode_B (from `../`)
@@ -13,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXModuleCode_B: 2fc250bc61eb7ceb2a6db233d03a9055076a065a
+  LXModuleCode_B: fd23d892b0d205e7495cb8d6e97a477877f9addf
 
 PODFILE CHECKSUM: 7ad9a32b5325d1aa0175202b2a4240b33dc7c218
 
