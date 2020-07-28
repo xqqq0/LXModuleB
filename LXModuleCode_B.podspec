@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LXModuleCode_B'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'f word'
 
 # This description is used to generate tags and improve search results.
@@ -41,8 +41,8 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
-  s.subspec 'A' do |a|
+  s.subspec 'SubA' do |a|
       a.source_files = 'LXModuleCode_B/Classes/SubA/**/*'
-      a.public_header_files = 'LXModuleCode_B/Classes/SubA/**/*.h'
+      # a.public_header_files = 'LXModuleCode_B/Classes/SubA/**/*.h'
   end
 end
